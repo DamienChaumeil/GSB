@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&display=swap');
+
+/* généralité -------------------------------------------------------------------------------------------------- */
+
+body {
+  font-family: 'Noto Sans JP', sans-serif;
+  background-color: #fdfdfd;
+}
+
+.bouton-validation {
+  width: 15%;
+  height: 33px;
+  text-align: center;
+  font-size: 20px;
+  color: white;
+  background-color: darkblue;
+  border: 2px solid blue;
+}
+
+a>img {
+  width: 33%;
+  min-width: 200px;
+}
+
+table{
+  border:solid; 
+  border-color:black;
+}
+
+/* page---------------------------------------------------------------------------------------------------------*/
+
+#page {
+  width: 100%;
+}
+
+/* corpus---------------------------------------------------------------------------------------------------------*/
+
+
+.authent {
+  width: 15%;
+  text-align: center;
+  font-size: 20px;
+  padding: 5px;
+  border: 2px solid blue;
+}
+
+#logo-person {
+  position: relative;
+  width: 10%;
+  font-size: 300px;
+  top: 50px;
+  margin-top: 200px;
+  color: darkblue;
+}
+
+
+#corpus {
+  position: relative;
+}
+
+
+#container {
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: center;
+}
+
+.button-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.button-container button {
+  cursor: pointer;
+}
+
+.main-title {
+  font-size: 2.5vw;
+  color: black;
+  text-align: center;
+}
+
+#form1 {
+  padding-top: 75px;
+}
+
+#txtT1 {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  font-size: 1rem;
+  text-align: center;
+}
+
+.error {
+  color: red;
+  font-size: 15px;
+  visibility: hidden;
+}
+
+button {
+  border-radius: 20px;
+  min-height: 60.33px;
+  padding: 1em;
+  padding-top: 0em;
+  padding-bottom: 0em;
+  width: 120px;
+  background-color: rgb(225, 225, 225);
+  transition-duration: 0.5s;
+}
+
+button:hover {
+  background-color: rgba(72, 72, 222, 0.519);
+}
+
+#deco:hover {
+  background-color: rgba(218, 105, 105, 0.794);
+}
+
+.consultation-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0;
+  margin: 0;
+}
+
+.center-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  border: 2px solid rgb(103, 103, 103);
+  -webkit-box-shadow: 14px 14px 0px 5px rgba(0, 0, 0, 0.33);
+  box-shadow: 14px 14px 0px 5px rgba(0, 0, 0, 0.33);
+  position: relative;
+}
+
+.center-container a:has(button) {
+  position: absolute;
+  top: 50%;
+  left: -150px;
+  transform: translate(0%, -50%);
+  cursor: pointer;
+}
+
+.consultation-body a:has(img) {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  cursor: pointer;
+}
+
+.center-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+
+.center-container form input[type=submit] {
+  background-color: #44c767;
+  border-radius: 28px;
+  border: 1px solid #18ab29;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 17px;
+  padding: 16px 31px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #2f6627;
+}
+
+
+.center-container form input[type=submit]:hover {
+  background-color: #5cbf2a;
+}
+
+.center-container form input[type=submit]:active {
+  position: relative;
+  top: 1px;
+}
+
+.client .center-container {
+  justify-content: flex-start;
+  width: 50vw;
+  gap: 5px;
+}
+
+.client {
+  justify-content: flex-start;
+  margin-top: 2vw;
+  gap: 5px;
+}
+
+.client .delete {
+  transform: translate(0%, 100%);
+}
+
+.client form {
+  gap: 10px;
+}
+
+.client form div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.erreur {
+  display: flex;
+  justify-content: center;
+  vertical-align: center;
+  flex-direction: column;
+}
+
+
+#container-error {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 90vh;
+}
+
+/* fin de la page-----------------------------------------------------------------------------------------------------------------------------*/

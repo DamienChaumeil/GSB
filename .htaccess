@@ -1,0 +1,9 @@
+Allow from ALL
+
+<Files index.php>
+
+php_flag session.use_trans_sid off
+php_flag session.use_only_cookies on
+
+Allow from ALL 
+</Files>
